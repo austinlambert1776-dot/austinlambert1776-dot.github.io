@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Everyday Top Picks — Curated Finds & Honest Recommendations</title>
+  <meta name="description" content="Curated product finds and honest recommendations. As an Amazon Associate I earn from qualifying purchases." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="logo">ETP</span>
+        <a href="./" class="brand-name">Everyday Top Picks</a>
+      </div>
+      <nav class="nav">
+        <a href="./">Home</a>
+        <a href="#picks">Picks</a>
+        <a href="disclosure.html">Disclosure</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Curated Finds & Honest Recommendations</h1>
+      <p>Your shortcut to gear we actually use and love. <strong>As an Amazon Associate I earn from qualifying purchases.</strong></p>
+      <a class="btn btn-primary" href="#picks">Browse Today's Picks</a>
+    </div>
+  </section>
+
+  <main class="container">
+    <section id="picks" class="cards">
+      <article class="card">
+        <div class="card-body">
+          <h2 class="card-title">Nonstick Frying Pan, 10&quot;</h2>
+          <p class="card-text">Even heating, easy cleanup, and oven-safe. Great everyday pan for eggs, veggies, and searing.</p>
+          <ul class="bullets">
+            <li>PTFE/PFOA-free coating</li>
+            <li>Dishwasher safe</li>
+            <li>Compatible with most stovetops</li>
+          </ul>
+          <a class="btn btn-link" href="#" rel="nofollow noopener">View on Amazon</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <h2 class="card-title">Adjustable Dumbbells (Pair)</h2>
+          <p class="card-text">Compact strength training—swap weights in seconds for efficient home workouts.</p>
+          <ul class="bullets">
+            <li>5–52.5 lb per dumbbell</li>
+            <li>Space-saving stand</li>
+            <li>Quick-lock mechanism</li>
+          </ul>
+          <a class="btn btn-link" href="#" rel="nofollow noopener">View on Amazon</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="card-body">
+          <h2 class="card-title">Noise‑Cancelling Earbuds</h2>
+          <p class="card-text">Block distractions and focus—solid battery life with crisp, balanced sound.</p>
+          <ul class="bullets">
+            <li>Active Noise Cancellation</li>
+            <li>IPX4 water resistance</li>
+            <li>Wireless charging case</li>
+          </ul>
+          <a class="btn btn-link" href="#" rel="nofollow noopener">View on Amazon</a>
+        </div>
+      </article>
+    </section>
+
+    <section class="about">
+      <h2>About This Site</h2>
+      <p>We research, compare, and share products that solve everyday problems. Some links on this site may be affiliate links. If you click and buy, we may earn a commission at no extra cost to you.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Affiliate Disclosure:</strong> As an Amazon Associate I earn from qualifying purchases.
+      </div>
+      <div class="footer-links">
+        <a href="disclosure.html">Disclosure</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="tiny">Last updated August 17, 2025</div>
+    </div>
+  </footer>
+</body>
+</html>
